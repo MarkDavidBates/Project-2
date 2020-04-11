@@ -10,11 +10,11 @@ a Raspberry Pi via Serial and will then be transformed into readable information
 
 #### Progress:
 
-##To Do:
+## To Do:
 Connecting the Arduino and RPi via serial is currently not working. My main aim is to get a test
 run to work befor moving on to converting the data.
 
-##Completed:
+## Completed:
 1. Audio and Temperature sensors working simultaniously
 
 #### Tools, Technologies and Equipment:
