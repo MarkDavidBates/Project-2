@@ -11,11 +11,11 @@ a Raspberry Pi via Serial and will then be transformed into readable information
 #### Progress:
 
 ## To Do:
-Connecting the Arduino and RPi via serial is currently not working. My main aim is to get a test
-run to work befor moving on to converting the data.
+convert audio and temperature readings into readable dATA
 
 ## Completed:
 1. Audio and Temperature sensors working simultaniously
+2. RPi and Arduino connected via Serial, data showing on linux terminal
 
 #### Tools, Technologies and Equipment:
 
@@ -28,4 +28,4 @@ run to work befor moving on to converting the data.
 #### Code Used:
 
 1. Python 3
-2. C
+2. C++
