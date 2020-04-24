@@ -40,7 +40,8 @@ void loop()
     }
 
     sum >>= 5;
-
+    
+    Serial.print("Audio = ");
     Serial.println(sum);
     delay(10);
 }
