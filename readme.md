@@ -11,11 +11,12 @@ a Raspberry Pi via Serial and will then be transformed into readable information
 #### Progress:
 
 ## To Do:
-convert audio and temperature readings into readable dATA
+convert audio and temperature readings into readable data
 
 ## Completed:
 1. Audio and Temperature sensors working simultaniously
 2. RPi and Arduino connected via Serial, data showing on linux terminal
+3. Connected the RPi to a Thingspeak cahnnel
 
 #### Tools, Technologies and Equipment:
 
@@ -23,7 +24,6 @@ convert audio and temperature readings into readable dATA
 2. Arduino
 3. Audio sensor
 4. Temperature Sensor
-4. RGB Display
 
 #### Code Used:
 
