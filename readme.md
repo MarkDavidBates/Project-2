@@ -24,6 +24,7 @@ convert audio and temperature readings into readable data
 2. Arduino
 3. Audio sensor
 4. Temperature Sensor
+5. Thingspeak
 
 #### Code Used:
 
