@@ -1,0 +1,19 @@
+import requests
+import time
+import serial
+
+ser = serial.Serial('/dev/ttyACM0', 9600)
+while true:
+  if(ser.in_waiting > 0):
+    
+    line = ser.readline()
+    
+    values = line.split(",")
+    
+    URL = 'https://api.thingspeak.com/update?api_key=<unique API Key here>&field1=' + values[0] + '&field2' + values[1]
+    
+    print(URL)
+    
+    response = requests.get(URL)
+    
+    time.sleep(15)
