@@ -8,9 +8,11 @@ while true:
     
     line = ser.readline()
     
+    print(line)
+    
     values = line.split(",")
     
-    URL = 'https://api.thingspeak.com/update?api_key=<unique API Key here>&field1=' + values[0] + '&field2' + values[1]
+    URL = 'https://api.thingspeak.com/update?api_key=<unique API Key here>&field1=' + values[0] + '&field2=' + values[1]
     
     print(URL)
     
