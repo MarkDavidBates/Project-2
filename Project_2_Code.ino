@@ -28,11 +28,6 @@ void loop()
 
     float temperature = 1.0/(log(R/R0)/B+1/298.15)-273.15; // convert to temperature via datasheet
 
-    Serial.print("temperature = ");
-    Serial.println(temperature);
-
-    delay(100);
-
     long sum = 0;
     for(int i=0; i<32; i++)
     {
@@ -41,7 +36,8 @@ void loop()
 
     sum >>= 5;
     
-    Serial.print("Audio = ");
+    Serial.print("Temperature");
+    Serial.print(",");
     Serial.println(sum);
-    delay(10);
+    delay(5000);
 }
