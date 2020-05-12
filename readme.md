@@ -1,6 +1,7 @@
 # Project Name: Decibal Detector
 
-Student Name: *Mark Bates*   Student ID: *20088639*
+Student Name: *Mark Bates*   
+Student ID: *20088639*
 
 #### Description:
 
