@@ -41,6 +41,8 @@ a Raspberry Pi via Serial and will then be transformed into readable information
 3. Connect your sensors to the ports. Be sure to connect your Temperature to the A0 port and your
 Audio sensor to the A3 port.
 
+![](images/arduino%20setup.jpg)
+
 #### Raspberry Pi Setup
 
 (**Note: this was not done using a headless Raspberry Pi**)
@@ -51,9 +53,11 @@ you are connected.
 4. Create a new python file and copy the Python code into it. save your file and remember which 
 directory it is in.
 
+![](images/final%20product.png.jpg)
+
 #### Thingspeak Setup
 
-(**Note: this is done assuming you have already setup a ThingSpeak account made**)
+(**Note: this is done assuming you have already a ThingSpeak account made**)
 1. Create a new Channel and call it "Decibel Detector Data"
 2. Create two fields, label the first field Temperature and the second field Audio
 3. Once you have created your channel, go to the tab named *API Keys*
