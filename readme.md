@@ -8,7 +8,6 @@ An underwater sensor that records audio levels and temperature, then sends the d
 to determine the effects of humans to the marine environment. The Data recorded will be sent to
 a Raspberry Pi via Serial and will then be transformed into readable information for the user.
 
-#### Progress:
 
 ## Completed:
 1. Audio and Temperature sensors working simultaniously
